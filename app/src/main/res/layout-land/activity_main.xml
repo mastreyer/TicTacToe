@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.t00551333.tic_tac_toe.MainActivity"
+    android:background="#a0a0a0"
+    android:orientation="vertical"
+    android:baselineAligned="false">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:id="@+id/textView3"
+        android:layout_gravity="top"
+        android:textSize="40sp"
+        android:background="#5c5c5c"
+        android:textColor="#ffffff"
+        android:textAlignment="center" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/optionslist"
+        android:layout_gravity="bottom"
+        android:layout_weight="1" />
+</LinearLayout>

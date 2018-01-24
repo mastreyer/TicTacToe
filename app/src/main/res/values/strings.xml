@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tic_Tac_Toe</string>
+    <string name="newBoard">New Board</string>
+    <string name="cpTurn">Computers turn</string>
+    <string name="playerTurn">Your turn</string>
+    <string name="score">Scores: </string>
+    <string name="name">Please enter your name!</string>
+    <string name="save">SAVE NAME</string>
+    <string name="scoreBoard">Scoreboard</string>
+    <string name="welcome">Welcome to "\n" Tic Tac Toe! "\n" Please choose an option!</string>
+</resources>
